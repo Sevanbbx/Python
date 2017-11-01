@@ -1,0 +1,16 @@
+a = int(input('a = '))
+b = int(input('b = '))
+if a > b:
+    c = a - b
+    a == b + c
+    b == a - c
+    print('a =',a)
+    print('b =',b)    
+elif b > a:
+    c = b - a
+    a == b - c
+    b == a + c
+    print('a =',a)
+    print('b =',b)    
+else:
+    print('Թվերը պետք է հավասար չլինեն')
