@@ -16,3 +16,20 @@ if sumA > sumB:
     print(True)
 else:
     print(False)
+
+
+
+
+#Nshumner
+
+import math
+print(max(25, 5, 32, 100, 3))
+print(3*'Aram')
+print('a' in 'Armenia')
+a = str(input('Input a = '))
+print(len(a))
+print(a[:-1])
+
+a = input('Input a:  ')
+print('a =', a+'36')
+print(a, '{1} {0} {2}.'.format('is', 'very', 'country'))
