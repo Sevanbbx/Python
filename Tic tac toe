@@ -1,0 +1,34 @@
+import arcade
+
+SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 800
+
+class Area:
+    """ Cllass to draw the area"""
+    
+    def __init__(self, x, y, color, num):
+        """ Initialize our area """
+        self.x = 300
+        self.y = 300
+        self.color = arcade.color.CYAN
+        self.num = 2
+        
+    def draw(self):
+        """Draw our area"""
+        arcade.draw_line(self.x, self.y, self.color, self.num)
+        
+class MyGame(arcade.Window):
+    """ Main application class. """
+    
+    def __init__(self, width, height):
+        super().__init__(width, height, title="Keyboard control")
+        self.player = None
+        self.left_down = False        
+        
+    #def setup(self):
+        #""" Set up the game and initialize the variables. """
+        
+    def update(self, dt):
+        """ Move everything """
+        if self.left_down # & coordinates == xy:
+            #draw X
